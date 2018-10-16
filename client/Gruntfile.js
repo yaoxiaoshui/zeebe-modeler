@@ -88,6 +88,16 @@ module.exports = function(grunt) {
           }
         ]
       },
+      bpmn_js_token_simulation: {
+        files: [
+          {
+            cwd: resolvePath('bpmn-js-token-simulation/'),
+            src: [ 'assets/**/*' ],
+            dest: '../app/public/vendor/bpmn-js-token-simulation/',
+            expand: true
+          }
+        ]
+      },
       diagram_js: {
         files: [
           {

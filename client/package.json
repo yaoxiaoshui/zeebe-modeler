@@ -14,6 +14,7 @@
     "bpmn-js": "^2.5.2",
     "bpmn-js-properties-panel": "^0.26.2",
     "bpmn-js-signavio-compat": "^1.0.1",
+    "bpmn-js-token-simulation": "^0.6.0",
     "camunda-bpmn-moddle": "^3.0.0",
     "camunda-cmmn-moddle": "^1.0.0",
     "camunda-dmn-moddle": "^1.0.0",

@@ -416,6 +416,7 @@ BpmnEditor.prototype.createModeler = function($el, $propertiesEl) {
       propertiesPanelConfig,
       zebeeModdleExtension,
       signavioCompat,
+      require('bpmn-js-token-simulation'),
       require('../../custom')
     ].concat(pluginModules),
     elementTemplates: elementTemplatesLoader,

@@ -66,6 +66,7 @@ Plugins.prototype.getPlugins = function() {
 function findPlugins(paths) {
 
   var plugins = [];
+  
 
   paths.forEach(path => {
     var globOptions = {
